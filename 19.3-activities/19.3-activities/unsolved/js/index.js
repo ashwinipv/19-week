@@ -1,3 +1,8 @@
+function fade() {
+    $(".preloader").fadeOut("slow");
+}
+setTimeout(fade, 3000)
+
 $(".searchButton").on("click", function(){
     $(".searchButton").toggleClass("active");
     if ($(".searchButton").hasClass("active")) {
